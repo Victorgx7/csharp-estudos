@@ -2,52 +2,37 @@
 
 Repositório que uso para guardar meus estudos, praticar C# e acompanhar minha evolução na programação.
 
-## O que tem aqui
+## Organização
 
-No momento, o repositório contém um projeto Windows Forms chamado **FormsVictorG**.
+- **`FormsVictorG/`** — projeto Windows Forms que já estou desenvolvendo, com tela principal, calculadora e tela sobre o autor.
+- **`mini-projetos/`** — projetos pequenos e independentes feitos durante os estudos. Cada projeto pode ter sua própria pasta e, quando necessário, seu próprio arquivo de solução.
+- **Exercícios por assunto** — conforme eu avançar, posso adicionar pastas para fundamentos, condicionais, laços, métodos, arrays e orientação a objetos.
+
+## Projeto atual: FormsVictorG
 
 O projeto inclui:
 - **Tela principal:** menu para abrir as outras telas e sair do programa.
 - **Calculadora:** operações básicas de soma, subtração, multiplicação e divisão, além de funções para limpar a entrada, apagar dígitos e inverter o sinal.
 - **Sobre o autor:** uma tela com informações do autor.
 
-## Tecnologias
+### Tecnologias
 
 - C#
 - Windows Forms
 - .NET Framework 4.7.2
 - Visual Studio
 
-## Como abrir o projeto
+### Como abrir
 
 1. Baixe ou clone este repositório.
-2. Abra o arquivo `FormsVictorG.slnx` em uma versão compatível do Visual Studio.
+2. Abra `FormsVictorG.slnx` em uma versão compatível do Visual Studio.
 3. Se necessário, instale o pacote de desenvolvimento do .NET Framework 4.7.2.
 4. Execute o projeto pelo Visual Studio.
 
-## Estrutura atual
+## Mini-projetos
 
-```text
-csharp-estudos/
-├── FormsVictorG/
-│   ├── Form1.cs
-│   ├── FormCalculadora.cs
-│   ├── FormAutor.cs
-│   ├── Program.cs
-│   ├── FormsVictorG.csproj
-│   ├── Properties/
-│   └── Resources/
-├── FormsVictorG.slnx
-├── .gitattributes
-└── .gitignore
-```
+A pasta [`mini-projetos/`](mini-projetos/README.md) será usada para organizar pequenos projetos de prática. Cada projeto deve ficar separado para facilitar a leitura, execução e manutenção.
 
-Os arquivos `*.Designer.cs` e `*.resx` também fazem parte dos formulários e devem ser mantidos junto deles.
+## Objetivo
 
-## Próximos estudos
-
-Conforme eu avançar, vou adicionar exercícios e projetos novos, organizando-os por assunto quando fizer sentido. A ideia é registrar o que estou aprendendo e manter um histórico real da minha evolução em C#.
-
----
-
-*Repositório de estudos pessoais. O conteúdo pode mudar conforme eu praticar e aprender novos conceitos.*
+Usar este repositório como um registro real do meu aprendizado em C#. Vou adicionar exercícios e projetos conforme eu for estudando, sem marcar conteúdos como concluídos antes de praticá-los.
